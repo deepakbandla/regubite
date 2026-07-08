@@ -1,0 +1,27 @@
+# Python / Backend dependencies
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+
+# Node / Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Local Vector Database data (ChromaDB saves files here)
+backend/chroma/
+backend/*.db
+
+# Environment variables & Private API keys (CRITICAL)
+.env
+backend/.env
+frontend/.env
+
+# Large Data files (Stops Git from choking on huge FSSAI PDFs)
+backend/data/*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
